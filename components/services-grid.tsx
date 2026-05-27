@@ -2,34 +2,34 @@ import Image from "next/image"
 
 const services = [
   { 
-    name: "Bridal Makeup", 
-    description: "Complete bridal packages for your special day with traditional & modern looks",
-    image: "https://images.unsplash.com/photo-1610173826608-ed1c3c5f6d93?w=600&h=400&fit=crop"
+    name: "Punjabi Bridal Makeup", 
+    description: "Complete Punjabi bridal packages with bold eyes, flawless contouring & traditional red lip for your Anand Karaj",
+    image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=600&h=400&fit=crop"
   },
   { 
-    name: "Mehndi & Henna", 
-    description: "Intricate traditional & modern designs for weddings, sangeet, and celebrations",
+    name: "Casual Punjabi Makeover", 
+    description: "Everyday glam and soft Punjabi-inspired looks for parties, Lohri, Baisakhi & casual outings",
+    image: "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=600&h=400&fit=crop"
+  },
+  { 
+    name: "Sangeet & Mehndi Glam", 
+    description: "Vibrant, camera-ready makeup for your sangeet night and mehndi celebrations",
     image: "https://images.unsplash.com/photo-1619451334792-150fd785ee74?w=600&h=400&fit=crop"
   },
   { 
-    name: "Threading", 
-    description: "Precise eyebrow shaping & facial threading for a clean, polished look",
-    image: "https://images.unsplash.com/photo-1612817159949-195b6eb9e31a?w=600&h=400&fit=crop"
+    name: "Bridal Mehndi & Henna", 
+    description: "Intricate Punjabi-style mehndi designs for hands and feet, perfect for the choora ceremony",
+    image: "https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=600&h=400&fit=crop"
   },
   { 
-    name: "Facials", 
-    description: "Rejuvenating skincare treatments tailored to your skin type",
-    image: "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600&h=400&fit=crop"
-  },
-  { 
-    name: "Hair Styling", 
-    description: "Cuts, color, blowouts & elegant updos for every occasion",
+    name: "Bridal Hair & Dupatta Setting", 
+    description: "Elegant updos, curls & traditional dupatta draping styled for the Punjabi bride",
     image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600&h=400&fit=crop"
   },
   { 
-    name: "Waxing", 
-    description: "Full body waxing services with gentle, effective techniques",
-    image: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=600&h=400&fit=crop"
+    name: "Pre-Wedding Skincare", 
+    description: "Bridal facial packages and skin prep treatments to get you glowing before your big day",
+    image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&h=400&fit=crop"
   },
 ]
 
@@ -49,7 +49,7 @@ export function ServicesGrid() {
             What We Offer
           </h2>
           <p className="text-white/50 max-w-xl mx-auto text-sm sm:text-base">
-            Traditional and modern beauty services for every occasion
+            Punjabi bridal and casual makeover services for every celebration
           </p>
         </div>
 

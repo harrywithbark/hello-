@@ -47,7 +47,7 @@ export function Hero() {
 
         {/* Subheadline */}
         <p className="text-white/60 text-sm sm:text-base md:text-lg max-w-xl mx-auto mb-6 sm:mb-8 leading-relaxed text-pretty px-2 animate-fade-in-up" style={{ animationDelay: '300ms' }}>
-          South Asian & traditional beauty — bridal, threading, mehndi, hair, and more. Your community salon.
+          Our Punjabi bridal and casual Punjabi makeover services for your special moments.
         </p>
 
         {/* Availability Badge */}

@@ -1,21 +1,21 @@
 import Image from "next/image"
 
 const portfolioRow1 = [
-  { src: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=400&h=500&fit=crop", alt: "Bridal Makeup" },
-  { src: "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=400&h=500&fit=crop", alt: "Makeup Palette" },
-  { src: "https://images.unsplash.com/photo-1619451334792-150fd785ee74?w=400&h=500&fit=crop", alt: "Mehndi Design" },
-  { src: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=400&h=500&fit=crop", alt: "Makeup Application" },
-  { src: "https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=400&h=500&fit=crop", alt: "Henna Art" },
-  { src: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=400&h=500&fit=crop", alt: "Eyebrow Styling" },
+  { src: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=400&h=500&fit=crop", alt: "Punjabi Bridal Makeup with Bold Eyes" },
+  { src: "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=400&h=500&fit=crop", alt: "Casual Punjabi Party Glam" },
+  { src: "https://images.unsplash.com/photo-1619451334792-150fd785ee74?w=400&h=500&fit=crop", alt: "Bridal Mehndi Design" },
+  { src: "https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=400&h=500&fit=crop", alt: "Intricate Henna for Choora Ceremony" },
+  { src: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&h=500&fit=crop", alt: "Bridal Hair Updo with Dupatta" },
+  { src: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=400&h=500&fit=crop", alt: "Pre-Wedding Facial Glow Treatment" },
 ]
 
 const portfolioRow2 = [
-  { src: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&h=500&fit=crop", alt: "Hair Styling" },
-  { src: "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=400&h=500&fit=crop", alt: "Glam Look" },
-  { src: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=400&h=500&fit=crop", alt: "Facial Spa" },
-  { src: "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=400&h=500&fit=crop", alt: "Salon Treatment" },
-  { src: "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=400&h=500&fit=crop", alt: "Skincare" },
-  { src: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=400&h=500&fit=crop", alt: "Beauty Portrait" },
+  { src: "https://images.unsplash.com/photo-1610173826608-ed1c3c5f6d93?w=400&h=500&fit=crop", alt: "Sangeet Night Makeup Look" },
+  { src: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=400&h=500&fit=crop", alt: "Bridal Contouring and Highlight" },
+  { src: "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=400&h=500&fit=crop", alt: "Bride Skincare Prep Session" },
+  { src: "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=400&h=500&fit=crop", alt: "Punjabi Makeup Palette Setup" },
+  { src: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=400&h=500&fit=crop", alt: "Eyebrow Shaping for Bridal Look" },
+  { src: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=400&h=500&fit=crop", alt: "Casual Punjabi Makeover Portrait" },
 ]
 
 function MarqueeRow({ images, direction }: { images: typeof portfolioRow1; direction: "left" | "right" }) {
